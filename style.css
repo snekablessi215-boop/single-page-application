@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 🌐 Navbar styling */
+.navbar {
+  width: 100%;
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: fixed;   /* stays on top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* 📦 Center Box */
+.menu-box {
+  background-color: #1565c0;
+  color: white;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin-top: 120px;  /* Push down below navbar */
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.menu-header {
+  background-color: #1976d2;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-links {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.menu-links li {
+  margin: 10px 0;
+}
+
+.menu-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-links li a:hover {
+  text-decoration: underline;
+}
